@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>P3 design Solutions - Home</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/da1b20a82c.js" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="index.js"></script> -->
   </head>
   <body>
     <header>
@@ -21,17 +23,29 @@
             <i>People <-> Place <-> Price </i>
           </p>
         </div>
-        <div>
-          <div id="navigation">
-            <button><a href="##">About us</a></button><button><a href="">Services</a></button
-            ><button><a href="">Engagement model</a></button><button><a href="">Contact us</a></button
-            ><button><a href="">Testimony</a></button>
-            <button><a href="">Careers</a></button>
-          </div>
-        </div>
       </div>
     </header>
-    <section>
+    <div id="test">
+      <div id="navigation">
+        <button><a href="##">About us</a></button><button><a href="">Services</a></button
+        ><button><a href="">Engagement model</a></button><button><a href="">Contact us</a></button
+        ><button><a href="">Testimony</a></button>
+        <button><a href="">Careers</a></button>
+      </div>
+      <div>
+        <i id="menu" class="fa-solid fa-bars fa-2xl"></i>
+      </div>
+    </div>
+    <div id="menu-contents">
+      <i id="mc" class="fa-regular fa-rectangle-xmark fa-2xl close"></i>
+      <div id="navigation-s">
+        <button><a href="##">About us</a></button><button><a href="">Services</a></button
+        ><button><a href="">Engagement model</a></button><button><a href="">Contact us</a></button
+        ><button><a href="">Testimony</a></button>
+        <button><a href="">Careers</a></button>
+      </div>
+    </div>
+    <div>
       <div id="frame">
         <div id="who">
           <p>
@@ -147,7 +161,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <div id="partners">
       <h2>Our Pride Partners</h2>
       <hr>
@@ -167,7 +181,7 @@
           Two wheeler Manufacturers
         </div>
         <div class="mark">
-          <img src="&&" alt="Taal" height="150px">
+          <img src="taal Tech.jpg" alt="Taal" height="150px">
           Taal Tech
         </div> 
       </div>
@@ -175,7 +189,39 @@
       <hr>
     </div>
     <footer>
-      &copy 2024, P3 Design Solutions, All rights reserverd.
+      <div style="text-align: left; display: flex; flex-direction: column;">
+        <div>
+          <img src="location.png" alt="loco-logo" height="25em" style="position: relative; top: 15px;">
+          P3 Design solutions,
+        </div>
+        <div style="padding-left: 29px;">
+          The Canopy, Mahindra world city, Chennai
+        </div>
+        <div style="padding-left: 29px; padding: 15px;">
+        Dr.Moorthy road,near Jayam residancy , Kumbakonam
+        </div>  
+      <hr>
     </footer>
+    <a href="#top" id="top-link">
+      <i id="up_icon" class="fa-solid fa-angle-up fa-2xl"></i>
+    </a>
+    
+    <div id="bott">
+      &copy 2024, P3 Design Solutions, All rights reserverd.
+    </div>
   </body>
+  <script>
+    document.getElementById('top-link').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+      document.getElementById('menu').addEventListener('click',(event)=>{
+        event.preventDefault();
+        document.getElementById('menu-contents').style.display = 'flex';
+      })
+      document.getElementById('mc').addEventListener('click',(event) =>{
+        event.preventDefault();
+        document.getElementById('menu-contents').style.display = 'none';
+      })
+  </script>
 </html>
