@@ -111,7 +111,7 @@ header {
   text-align: center;
   color: white;
   font-size: 2em;
-  background: url("gear.webp");
+  background: url("pictures/gear.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -241,15 +241,16 @@ img{
         display: none;
     }
     #test{
-        height: 5em;
-        background: grey;
+        height: 6em;
+        background: linear-gradient(to bottom,rgb(159, 156, 156),white);
     }
     #menu{
-        display: block;
+        display:inline-block;
         position: relative;
         top: 1em;
         left: 90%;
         cursor: pointer;
+       
     }
     #menu-contents{
         background: linear-gradient(to bottom, grey,white);
@@ -262,6 +263,13 @@ img{
         align-items: center;
         z-index: 5;
     }
+    /* .menu-content{
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    .menu-content.visible{
+      opacity: 1;
+    } */
     #navigation-s{
         display: flex;
         flex-direction: column;
