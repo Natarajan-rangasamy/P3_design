@@ -1,0 +1,59 @@
+body{
+    background: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url('pictures/business-engagement-models.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  margin: 0;
+  padding: 0;
+}
+h2{
+    box-shadow: 5px 5px 5px;
+  display: inline-block;
+  padding: .5em;
+  background: rgba(0, 0, 0, 0.347);
+  color: rgb(184, 222, 255);
+}
+h2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s linear;
+}
+#contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+#ORA img{
+    border-radius: 3%;
+    width: 10em;
+    
+}
+.inner{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 2em;
+    width: 500px;
+    background-color: rgba(255, 235, 205, 0.529);
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.529);
+    
+}
+.inner:hover{
+    cursor: pointer;
+    transform: rotateY(360deg);
+    transition: 0.8s linear;
+}
+li{
+    list-style: none;
+    padding: 1em;
+}
+#CTH{
+
+}
