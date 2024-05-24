@@ -1,0 +1,51 @@
+div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.get{
+    text-align: center;
+    
+}
+.cont-section{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.177);
+    margin: 3em;
+    padding: 3em;
+    backdrop-filter: blur;
+    border-radius: 5%;
+}
+input, textarea{
+    margin: 1em;
+    padding: 1em;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 8px ;
+    width: 70%;
+    cursor: pointer;
+}
+#cta-but{
+    padding: 2em;
+    margin: auto 40%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+#cta-but:hover{
+    background: rgb(99, 99, 203);
+    color: rgb(251, 251, 251);
+    font-weight: bold;
+}
+#contacts{
+    margin: 2em auto;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background: rgba(35, 102, 100, 0.455);
+    border-radius: 15%;
+    width: 60%;
+}
+#contacts img{
+    position: relative;
+    top: 10px;
+}
