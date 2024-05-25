@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.433),rgb(255, 255, 255));
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow:hidden;
+}
+#career_intro{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 2em;
+font-size: large;
+}
+.head{
+    margin-left:2em;
+}
+h2:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+#back-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 1em;
+  }
