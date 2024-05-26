@@ -29,3 +29,39 @@ h2:hover{
     width: 50%;
     margin-top: 1em;
   }
+  #openings{
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.314);
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(38, 71, 70);
+  }
+  .job{
+    background: rgba(148, 170, 252, 0.433);
+    padding: 1em;
+     width: 20em;
+    text-align: center;
+  }
+  .job:hover{
+    transform: translate(5%,-5%);
+    transition: 0.3s linear;
+    box-shadow: 5px 5px 3px;
+  }
+  .heading{
+    display: flex;
+    justify-content:space-between;
+    color: green;
+  }
+  .arr{
+    position: relative;
+    left: 5em;
+    top: 1em;
+    border-radius: 50%;
+  }
+  .arr:hover{
+    transition: .5s linear;
+    background: white;
+    box-shadow: 5px 5px 3px white;
+  }

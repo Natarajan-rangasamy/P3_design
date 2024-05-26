@@ -7,6 +7,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+button{
+  border: none;
+}
 h2{
   box-shadow: 5px 5px 5px;
   display: inline-block;
