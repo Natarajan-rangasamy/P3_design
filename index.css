@@ -41,7 +41,7 @@ p {
 }
 header {
   background: linear-gradient(to right, rgb(179, 179, 215), rgb(125, 209, 140));
-  border-bottom: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(66, 13, 116);
   border-radius: 1em;
   padding: 1em 2em;
   display: flex;
